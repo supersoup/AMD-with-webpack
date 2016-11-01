@@ -8,7 +8,7 @@ module.exports = {
 	entry: "./entry/main.js",
 	output: {
 		path: "./app/dist",
-		publicPath: 'dist/',
+		publicPath: './dist/',
 		filename: "[id].bundle.js",
 		chunkFilename: '[id].bundle.js'
 	},
@@ -16,5 +16,6 @@ module.exports = {
 		alias: {
 			'inner': './inner'
 		}
-	}
+	},
+	devtool: '#inline-source-map'
 };
