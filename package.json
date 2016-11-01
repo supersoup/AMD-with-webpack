@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rjs": "^0.1.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rjs-build": "node r.js -o build.js",
+    "webpack-build": "webpack"
   },
   "author": "",
   "license": "ISC"

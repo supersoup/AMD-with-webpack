@@ -7,8 +7,8 @@ module.exports = {
 	context: 'app',
 	entry: "./entry/main.js",
 	output: {
-		path: "./app/dist",
-		publicPath: './dist/',
+		path: "./app/dist-webpack",
+		publicPath: './dist-webpack/',
 		filename: "[id].bundle.js",
 		chunkFilename: '[id].bundle.js'
 	},
