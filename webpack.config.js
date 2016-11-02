@@ -4,11 +4,11 @@
 
 module.exports = {
 	// configuration
-	context: 'app',
-	entry: "./entry/main.js",
+	context: './',
+	entry: "./app/entry/main.js",
 	output: {
 		path: "./app/dist-webpack",
-		publicPath: './dist-webpack/',
+		publicPath: './app/dist-webpack/',
 		filename: "[id].bundle.js",
 		chunkFilename: '[id].bundle.js'
 	},
@@ -17,5 +17,8 @@ module.exports = {
 			'inner': './inner'
 		}
 	},
-	devtool: '#inline-source-map'
+	devtool: '#inline-source-map',
+	devServer: {
+		inline: true
+	}
 };
