@@ -11,7 +11,7 @@ require(['./jquery', 'inner/main2', './main3'], function($) {
 
 	$.ajax({
 		type: 'post',
-		url: '/api',
+		url: '/api/test/proxy',
 	}).done(function (res) {
 		console.log(res);
 	})

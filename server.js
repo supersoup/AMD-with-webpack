@@ -12,9 +12,7 @@ app.use('/test/proxy', function (req, res) {
 	});
 });
 
-app.post('/', function (req, res) {
-	console.log(res.path);
-});
+app.use(express.static(__dirname));
 
 var server = app.listen(9999, function () {
 	console.log('hello, 9999');

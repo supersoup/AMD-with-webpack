@@ -14,7 +14,7 @@
   "scripts": {
     "rjs-build": "node r.js -o build.js",
     "webpack-build": "webpack",
-    "dev": "webpack-dev-server --inline"
+    "dev": "webpack-dev-server --inline --color"
   },
   "author": "",
   "license": "ISC"
