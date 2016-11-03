@@ -8,7 +8,7 @@ module.exports = {
 	entry: "./app/entry/main.js",
 	output: {
 		path: "./app/dist-webpack",
-		publicPath: './app/dist-webpack/',
+		publicPath: '/app/dist-webpack/',
 		filename: "[id].bundle.js",
 		chunkFilename: '[id].bundle.js'
 	},
@@ -19,6 +19,13 @@ module.exports = {
 	},
 	devtool: '#inline-source-map',
 	devServer: {
-		inline: true
-	}
+		inline: true,
+		proxy: {
+			'/api': {
+				target: 'localhost:9999/test/proxy',
+				secure: false
+			}
+		}
+	},
+
 };
