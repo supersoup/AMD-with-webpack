@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a00f794-dbbf-46b8-a11c-0bbd98fb3c17" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/AMD_with_webpack_node_modules.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webpack_use_study.iml" afterPath="$PROJECT_DIR$/.idea/webpack_use_study.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
-    </list>
+    <list default="true" id="9a00f794-dbbf-46b8-a11c-0bbd98fb3c17" name="Default" comment="" />
     <ignored path="webpack_use_study.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +23,8 @@
       <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="627">
+              <caret line="33" column="81" selection-start-line="33" selection-start-column="81" selection-end-line="33" selection-end-column="81" />
               <folding>
                 <marker date="1478226328591" expanded="true" signature="145:177" ph="{&quot;path&quot;: &quot;./app/dist-webpack&quot;...}" />
                 <marker date="1478226328591" expanded="true" signature="970:975" ph="{&quot;target&quot;: 'localhost:9999/test/proxy'...}" />
@@ -271,12 +263,12 @@
       <updated>1477880507600</updated>
       <workItem from="1478151262086" duration="111000" />
       <workItem from="1478151382210" duration="9945000" />
-      <workItem from="1478222194867" duration="9328000" />
+      <workItem from="1478222194867" duration="9922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19384000" />
+    <option name="totallyTimeSpent" value="19978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="663" width="1936" height="1096" extended-state="6" />
@@ -684,8 +676,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="627">
+          <caret line="33" column="81" selection-start-line="33" selection-start-column="81" selection-end-line="33" selection-end-column="81" />
           <folding>
             <marker date="1478226328591" expanded="true" signature="145:177" ph="{&quot;path&quot;: &quot;./app/dist-webpack&quot;...}" />
             <marker date="1478226328591" expanded="true" signature="970:975" ph="{&quot;target&quot;: 'localhost:9999/test/proxy'...}" />
