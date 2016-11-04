@@ -12,6 +12,14 @@ app.use('/test/proxy', function (req, res) {
 	});
 });
 
+app.use('/app/test/proxy', function (req, res) {
+	console.log('/app/test/proxy');
+	res.json({
+		c: 'ccc',
+		d: 'ddd'
+	});
+});
+
 app.use(express.static(__dirname));
 
 var server = app.listen(9999, function () {
