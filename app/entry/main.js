@@ -8,13 +8,6 @@ require(['./jquery', 'inner/main2', './main3'], function($) {
 	require(['./inner/main4'], function() {
 		console.log('load main4.js');
 	});
-
-	$.ajax({
-		type: 'post',
-		url: '/api/test/proxy',
-	}).done(function (res) {
-		console.log(res);
-	})
 });
 
 

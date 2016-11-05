@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "inner/main4.js",
+  "sources": [
+    "main4.js"
+  ],
+  "names": [],
+  "mappings": "AAAA;AACA;AACA;AACA;AACA;AACA;AACA",
+  "sourcesContent": [
+    "/**\r\n * Created by Administrator on 2016/10/31.\r\n */\r\ndefine('inner/main4',[], function() {\r\n\tconsole.log('hello main4.js');\r\n});\n"
+  ]
+}
