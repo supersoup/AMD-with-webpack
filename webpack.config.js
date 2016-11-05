@@ -9,7 +9,6 @@ module.exports = {
 	output: {
 		path: "./app/dist-webpack",
 		publicPath: './dist-webpack/',
-
 		filename: "[id].bundle.js",
 		chunkFilename: '[id].bundle.js'
 	},
